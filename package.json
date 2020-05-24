@@ -1,0 +1,14 @@
+{
+  "name": "node-iota-streams",
+  "version": "0.1.0",
+  "description": "Node bindings for IOTA Streams API",
+  "main": "lib/index.js",
+  "author": "Will Holcomb <dys@dhappy.org>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.4.0"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}

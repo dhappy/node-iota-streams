@@ -1,0 +1,18 @@
+[package]
+name = "node-iota-streams"
+version = "0.1.0"
+authors = ["Will Holcomb <dys@dhappy.org>"]
+license = "MIT"
+build = "build.rs"
+edition = "2018"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "node_iota_streams"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.4.0"
+
+[dependencies]
+neon = "0.4.0"
